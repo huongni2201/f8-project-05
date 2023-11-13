@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mobile Banking</title>
+    </head>
+
+    <!-- Favicon -->
+    <link
+        rel="apple-touch-icon"
+        sizes="57x57"
+        href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="60x60"
+        href="./assets/favicon//apple-icon-60x60.png"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="72x72"
+        href="./assets/favicon//apple-icon-72x72.png"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="76x76"
+        href="./assets/favicon//apple-icon-76x76.png"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href="./assets/favicon//apple-icon-114x114.png"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="120x120"
+        href="./assets/favicon//apple-icon-120x120.png"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="144x144"
+        href="./assets/favicon//apple-icon-144x144.png"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="152x152"
+        href="./assets/favicon//apple-icon-152x152.png"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="./assets/favicon//apple-icon-180x180.png"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="192x192"
+        href="./assets/favicon//android-icon-192x192.png"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="./assets/favicon//favicon-32x32.png"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="96x96"
+        href="./assets/favicon//favicon-96x96.png"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="./assets/favicon//favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+        name="msapplication-TileImage"
+        content="./assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Embed Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400;1,700&display=swap"
+        rel="stylesheet"
+    />
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="#">
+                            <img
+                                src="./assets/img/celo-logo-img.svg"
+                                alt=""
+                                class="logo__img"
+                            />
+                        </a>
+
+                        <a href="#">
+                            <img
+                                src="./assets/img/celo-logo-text.svg"
+                                alt="CeloBank"
+                                class="logo__text"
+                            />
+                        </a>
+                    </div>
+                    <ul class="navbar__list">
+                        <li class="navbar-item">
+                            <a href="#!" class="navbar-item__link">Home</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#!" class="navbar-item__link">Products</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#!" class="navbar-item__link">Features</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#!" class="navbar-item__link">Blog</a>
+                        </li>
+                    </ul>
+
+                    <div class="login-form">
+                        <a href="#" class="login-link">Log in</a>
+                        <a href="#" class="btn btn-black">Sign up</a>
+                    </div>
+                </nav>
+
+                <!-- Hero -->
+                <div class="hero">
+                    <div class="hero__content">
+                        <p class="hero__sub-heading section-sub-heading">
+                            Digital Smart Wallet
+                        </p>
+                        <h1 class="section-heading hero__heading">
+                            Digital <b>Payment</b> For Everyone.
+                        </h1>
+                        <p class="hero__desc section-desc">
+                            We bring together eveything that’s required to build
+                            websites and apps that accept payments and send
+                            payouts globally. We are the best platform.
+                        </p>
+
+                        <div class="hero__letters">
+                            <input
+                                type="email"
+                                class="hero__letters-email"
+                                placeholder="Your email address"
+                            />
+                            <a href="#!" class="btn hero__cta">Get Started</a>
+                        </div>
+
+                        <p class="hero__note">
+                            *We’ll respect the inbox and never share your email.
+                        </p>
+                    </div>
+                    <div class="hero__media">
+                        <figure class="hero__media-wrap">
+                            <img
+                                src="./assets/img/hero-mobile-screen.svg"
+                                alt="Mobile Screen"
+                                class="hero__media-img"
+                            />
+                        </figure>
+
+                        <div class="hero__deposite">
+                            <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M1 11V19H19V11"
+                                    stroke="#8376E2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                                <path
+                                    d="M10 1V13M10 13L13 10M10 13L7 10"
+                                    stroke="#8376E2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            <span class="hero__deposite-text">Deposite</span>
+                            <span class="hero__deposite-dollars">$32000</span>
+                        </div>
+
+                        <div class="hero__interest">
+                            <div>
+                                <span class="hero__interest-percent">0%</span>
+                                <span class="hero__interest-text"
+                                    >Interest</span
+                                >
+                            </div>
+                        </div>
+
+                        <div class="hero__funds">
+                            <svg
+                                width="20"
+                                height="26"
+                                viewBox="0 0 20 26"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M20 2.925C13.75 2.925 11.25 1.3 10 0C8.75 1.3 6.25 2.925 0 2.925V13.325C0 16.25 1.25 21.45 10 26C18.75 21.45 20 16.25 20 13.325V2.925Z"
+                                    fill="white"
+                                />
+                                <path
+                                    d="M10.6381 18.4703V19.4602C10.6381 19.758 10.396 19.9993 10.0971 19.9993C9.79381 20.0143 9.53577 19.781 9.52158 19.4788C9.52158 19.4726 9.5207 19.4664 9.5207 19.4602V18.488C8.28893 18.4483 7.11123 17.9754 6.19517 17.1535C6.06924 17.0262 5.99919 16.8548 6.00007 16.6763C5.99474 16.268 6.30956 15.9268 6.71838 15.8985C6.87977 15.902 7.03586 15.9577 7.1618 16.0576C7.83045 16.6179 8.64633 16.9759 9.51184 17.0917V13.5564C7.87122 13.1146 6.15967 12.5577 6.15967 10.5515C6.15967 8.91652 7.51648 7.68803 9.51181 7.54664V6.53912C9.51626 6.24303 9.75568 6.00443 10.0528 6C10.3516 6 10.5937 6.24128 10.5937 6.53912V7.59083C11.6162 7.64915 12.5917 8.04066 13.3694 8.70442C13.4954 8.83168 13.5654 9.00315 13.5645 9.18165C13.5601 9.59791 13.2196 9.93288 12.8019 9.93288C12.6715 9.9311 12.5456 9.89134 12.4383 9.81798C11.9 9.4079 11.2704 9.13481 10.6026 9.02256V12.1247C12.2432 12.5666 13.9991 13.2029 13.9991 15.2887C14.0345 16.8442 13.0591 18.3113 10.6381 18.4703ZM9.52067 8.95188C8.4831 9.03142 7.80026 9.62356 7.80026 10.4455C7.80026 11.2674 8.55405 11.5591 9.52067 11.8419V8.95188ZM10.6381 13.8923V17.1093C11.9505 16.9502 12.4117 16.1548 12.4117 15.4831C12.4205 14.5551 11.6402 14.1751 10.6381 13.8923Z"
+                                    fill="#439F90"
+                                />
+                            </svg>
+
+                            <div class="hero__funds-wrap">
+                                <span class="hero__funds-dollars">$1.310</span>
+                                <p class="hero__funds-text">Secured Funds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- How It Works -->
+            <section class="works">
+                <div class="container">
+                    <div class="works__inner">
+                        <div class="works__media">
+                            <figure>
+                                <img
+                                    src="./assets/img/works-hero-bg.svg"
+                                    alt=""
+                                    class="works__background"
+                                />
+                                <img
+                                    src="./assets/img/works-hero-img.svg"
+                                    alt=""
+                                    class="works__hero-img"
+                                />
+                            </figure>
+
+                            <div class="works__card">
+                                <img
+                                    src="./assets/img/works-card.svg"
+                                    alt=""
+                                    class="works__card-img"
+                                />
+                            </div>
+
+                            <div class="works__congrat">
+                                <svg
+                                    width="40"
+                                    height="40"
+                                    viewBox="0 0 40 40"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect
+                                        width="40"
+                                        height="40"
+                                        rx="6"
+                                        fill="#4AB5E3"
+                                    />
+                                    <circle
+                                        cx="20"
+                                        cy="20"
+                                        r="10"
+                                        fill="white"
+                                    />
+                                    <path
+                                        d="M15 20L18.5 23.5L25 17"
+                                        stroke="#4AB5E3"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+
+                                <div class="works__congrat-column">
+                                    <h4 class="works__congrat-text">
+                                        Congratulations
+                                    </h4>
+                                    <p class="works-congrat-desc">
+                                        Your account activated
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="works__content">
+                            <p class="section-sub-heading works__sub-heading">
+                                Digital Smart Wallet
+                            </p>
+                            <h2 class="section-heading works__heading">
+                                How It Works
+                            </h2>
+
+                            <ul class="works__list">
+                                <li class="works-item">
+                                    <h3 class="works-item__heading">
+                                        1. Open a High Interest Checking account
+                                    </h3>
+                                    <p class="works-item__desc">
+                                        Fund your bank account with a minimum
+                                        balance of $100. Enroll in 3 minutes or
+                                        less!
+                                    </p>
+                                </li>
+
+                                <li class="works-item">
+                                    <h3 class="works-item__heading">
+                                        2. 10 point-of-sale transactions each
+                                        Month that are at least $10 each.
+                                    </h3>
+                                    <p class="works-item__desc">
+                                        Be sure to use your rewards checking
+                                        account as often as possible in order to
+                                        accue APYI
+                                    </p>
+                                </li>
+
+                                <li class="works-item">
+                                    <h3 class="works-item__heading">
+                                        3. Receive up to 5.50% APY
+                                    </h3>
+                                    <p class="works-item__desc">
+                                        The APY you earn will be based on your
+                                        account balance and satisfying the
+                                        transaction requirement.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Payments -->
+            <section class="payments">
+                <div class="container"></div>
+            </section>
+
+            <!-- Method -->
+            <section class="method">
+                <div class="container"></div>
+            </section>
+
+            <!-- Clients -->
+            <section class="clients">
+                <div class="container"></div>
+            </section>
+
+            <!-- Our Blog -->
+            <section class="blog">
+                <div class="container"></div>
+            </section>
+
+            <!-- Install App -->
+            <section class="install">
+                <div class="container"></div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container"></div>
+        </footer>
+    </body>
+</html>
