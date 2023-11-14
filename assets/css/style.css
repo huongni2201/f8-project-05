@@ -324,6 +324,7 @@ a {
 /* ========================= Works ========================= */
 .works {
     margin-top: 80px;
+    padding-bottom: 80px;
 }
 
 .works__inner {
@@ -424,3 +425,285 @@ a {
 }
 
 /* ========================= Payments ========================= */
+.payments {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.payments__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.payments__content {
+    width: 40%;
+}
+
+.payments__heading {
+    font-size: 4rem;
+}
+
+.payments__list {
+    margin-top: 28px;
+}
+
+.payments__item {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66667; /* 166.667% */
+}
+
+.payments__item ~ .payments__item {
+    margin-top: 18px;
+}
+
+.payments__item::before {
+    margin-right: 12px;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.payments__btn {
+    margin-top: 38px;
+    padding: 15px 30px;
+}
+
+/* Payments Card */
+.payments__card {
+    position: relative;
+}
+
+.payments__card-item {
+    position: relative;
+    z-index: -1;
+    padding: 38px 38px;
+
+    width: 482px;
+    height: 322px;
+    flex-shrink: 0;
+
+    color: #fff;
+    border-radius: 20px;
+    background: #8476e3;
+}
+
+.payments__card-item::before {
+    content: url(/assets/img/payments-card-decor-01.svg);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.payments__card-item::after {
+    content: url(/assets/img/payments-card-decor-02.svg);
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+.payments__card-title {
+    font-size: 2.4rem;
+}
+
+.payments__card-account {
+    margin-top: 10px;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.payments__card-circle {
+    position: absolute;
+    right: 38px;
+    top: 38px;
+    z-index: 2;
+
+    display: flex;
+}
+
+.payments__card-circle-inner {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.payments__card-circle-inner:first-child {
+    background: #fe6565;
+    margin-right: -18px;
+}
+
+.payments__card-circle-inner:last-child {
+    background: #feef65;
+    position: relative;
+    overflow: hidden;
+}
+
+.payments__card-circle-inner:last-child::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    background: #ffb228;
+}
+
+.payments__bottom {
+    margin-top: 137px;
+    display: flex;
+    column-gap: 26px;
+}
+
+.payments__bottom-limit {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.payments__bottom-time {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.payments__bottom-name {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.payments__bottom-situation {
+    margin-top: 4px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.payments__send {
+    position: absolute;
+    top: -48px;
+    right: -88px;
+
+    display: flex;
+    align-items: center;
+
+    width: 276px;
+    height: 86px;
+    flex-shrink: 0;
+    padding: 22px 14px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.07);
+}
+
+.payments__send-wrap {
+    display: flex;
+    width: 100%;
+}
+
+.payments__send-col ~ .payments__send-col {
+    margin-left: 71px;
+}
+
+.payments__send-heading {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.payments__send-desc {
+    margin-left: auto;
+    margin-top: 4px;
+    color: #696d76;
+    font-size: 1rem;
+}
+
+.payments__income {
+    position: absolute;
+    bottom: -55px;
+    right: -88px;
+
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    flex-shrink: 0;
+
+    color: #fff;
+    border-radius: 16px;
+    background: #439f90;
+}
+
+.payments__income-desc {
+    margin-top: 14px;
+    font-size: 1.2rem;
+}
+
+.payments__income-heading {
+    margin-top: 6px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* ========================= Method ========================= */
+.method {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.method__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 130px;
+}
+
+.method__media {
+    padding-right: 100px;
+    position: relative;
+}
+
+.method__content {
+    width: 40%;
+}
+
+.method__heading {
+    font-size: 4rem;
+}
+
+.method__list {
+    margin-top: 28px;
+}
+
+.method__item {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66667; /* 166.667% */
+}
+
+.method__item ~ .method__item {
+    margin-top: 18px;
+}
+
+.method__item::before {
+    margin-right: 12px;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.method__btn {
+    margin-top: 38px;
+}
